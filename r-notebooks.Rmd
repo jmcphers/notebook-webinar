@@ -10,7 +10,7 @@ output:
 
 ## Outline
 
-1. Background
+1. Background: Data Analysis Workflow
 2. R Notebooks
 3. Demo
 4. Q&A
@@ -54,7 +54,7 @@ A goal of R Notebooks is to give you all the power of R Markdown with all of the
 
 ![](images/level-4.png)
 
-## R Notebooks
+## R Notebooks Summary
 
 1. Interact with R in a **single, seamless stream**.
 1. **Iterate quickly** on code and output; see code and output together. 
@@ -93,7 +93,33 @@ Everything here is only in the RStudio preview.
 
 7. alternate formats
 
+8. new notebook
+
 </div>
+
+## Compared with Jupyter
+
+- Different interaction model (cells vs. text)
+- First-class support for R, some support for other "kernels"
+- Plain text format is more amenable to version control
+- No special viewer required 
+- Cross-render to final output
+
+## Advanced topics
+
+- Execution queue control
+- Notebooks in RStudio Server
+- Version control
+- Rendering & hooks from other R front ends
+
+## R Notebooks Summary
+
+1. Interact with R in a **single, seamless stream**.
+1. **Iterate quickly** on code and output; see code and output together. 
+1. Leave a **clean, reproducible record** of your analysis in a simple text file.
+1. Document your analysis with **rich, literate prose**.
+1. **Share and publish** easily.
+1. **One-click export** to PDF, Word, etc.
 
 ## Links
 

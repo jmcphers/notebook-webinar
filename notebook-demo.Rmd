@@ -2,7 +2,7 @@
 title: "R Notebook Demo"
 output:
   html_notebook: default
-  html_document: 
+  html_document:
     highlight: textmate
     theme: spacelab
     toc: yes
@@ -25,7 +25,7 @@ library(leaflet)
 First, let's create a simple code chunk that prints the numbers from 1 to 10. Run this chunk with *Ctrl+Shift+Enter* (*Cmd+Shift+Enter* on OS X). 
 
 ```{r numbers}
-numbers <- seq_len(20)
+numbers <- seq_len(15)
 numbers
 ```
 
@@ -146,6 +146,5 @@ By now you've probably realized that any R Markdown document is also a notebook.
 # Further reading
 
 [R Notebook Reference](http://rmarkdown.rstudio.com/r_notebooks.html)
-
 
 
